@@ -1,3 +1,18 @@
 .container {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.grid {
+    flex: 0 0 5px;
+    background-color: lightblue;
+    height: 30px;
+    width: 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
 }
