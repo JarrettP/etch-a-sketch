@@ -28,13 +28,10 @@ const squares = [
 
 squares.forEach((text) => {
     const div = document.createElement('div');
-    div.classList.add('grid');
+    div.classList.add('item');
+    div.setAttribute('style',`grid-area: ${text};`)
     div.textContent = text
     fragment.appendChild(div);
 });
-
-// for (let i = 0; i < divs.length; i++) {
-//     docFrag.appendChild(divs[i]);
-// }
 
 container.appendChild(fragment);
