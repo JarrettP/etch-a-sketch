@@ -1,6 +1,6 @@
 const container = document.getElementById('container');
 
-container.style.gridTemplateColumns = "epeat(16, 1fr)";
+container.style.gridTemplateColumns = "repeat(16, 1fr)";
 
 for (let i = 0; i < 256; i++) {
     const div = document.createElement('div');
