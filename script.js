@@ -10,6 +10,6 @@ container.onmouseover = (event) => {
     event.target.classList.add('hover');
 };
 
-container.onmouseout = (event) => {
-    event.target.classList.remove('hover');
-};
+// container.onmouseout = (event) => {
+//     event.target.classList.remove('hover');
+// };
