@@ -7,8 +7,6 @@
 
 .item {
     background-color: gray;
-    border-style: solid;
-    border-color: black;
     text-align: center;
     transition: 0.1s;
 }
