@@ -1,10 +1,10 @@
 const container = document.getElementById('container');
 
-let size = 16
+let size = 10
 
 container.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
 
-for (let i = 0; i < 256; i++) {
+for (let i = 0; i < (size ** size); i++) {
     const div = document.createElement('div');
     div.classList.add('item');
     container.appendChild(div);
