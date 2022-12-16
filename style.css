@@ -10,9 +10,6 @@
 .item {
     text-align: center;
     transition: 0.1s;
-    border-color: black;
-    border-width: 1px;
-    border-style: dashed;
 }
 
 .hover {
